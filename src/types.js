@@ -11,3 +11,8 @@ export const BULK_STRING = '$'.charCodeAt();
 export const ARRAY = '*'.charCodeAt();
 export const CR = 13;
 export const LF = 10;
+export const CRLF = '\r\n';
+
+export function typeToString(type) {
+	return String.fromCharCode(type);
+}
